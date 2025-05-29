@@ -1,0 +1,25 @@
+#!/bin/bash
+
+infil=s29c.acf
+utfil=j29f.acf
+
+cp $infil $utfil
+
+# Bränsle förbrukning
+sed -i '/_engn\/0\/_burner_inc/c\P _engn/0/_burner_inc 2000.000000000' $utfil
+sed -i '/acf\/_go_to_burner_50_above_thro/c\P acf/_go_to_burner_50_above_thro 0.899999976' $utfil
+#sed -i '/acf\/_SFC_half_hi_JET/c\P acf/_SFC_half_hi_JET 0.456000000' $utfil
+#sed -i '/acf\/_SFC_half_lo_JET/c\P acf/_SFC_half_lo_JET 0.456000000' $utfil
+
+# Tom vikt
+#sed -i '/acf\/_m_empty/c\P acf/_m_empty 5734.221679688' $utfil
+
+# Namn
+sed -i '/acf\/_name/c\P acf/_name Saab J29F Tunnan' $utfil
+
+# Motorstyrka
+#sed -i '/acf\/_thrust_max_limit/c\P acf/_thrust_max_limit 1900.0' $utfil
+#Tomgång
+#sed -i '/acf\/_idle_rat\/0/c\P acf/_idle_rat/0 0.500000000' $utfil
+#sed -i '/acf\/_idle_rat\/1/c\P acf/_idle_rat/1 1.0' $utfil
+
