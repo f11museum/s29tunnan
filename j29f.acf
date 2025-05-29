@@ -3260,7 +3260,7 @@ P _body/0/_locked/9,9 0
 P _body/0/_locked/i_count 20
 P _body/0/_locked/j_count 18
 P _body/0/_part_area_rule 1.000000000
-P _body/0/_part_cd 0.090000004
+P _body/0/_part_cd 0.079999998
 P _body/0/_part_phi 0.000000000
 P _body/0/_part_psi 0.000000000
 P _body/0/_part_rad 3.904199600
@@ -3316,8 +3316,8 @@ P _gear/0/_latR 0.000000000
 P _gear/0/_leg_len 2.296587944
 P _gear/0/_lonE 11.000000000
 P _gear/0/_lonR -90.000000000
-P _gear/0/_steerdeg_hispeed 19.000000000
-P _gear/0/_steerdeg_lospeed 29.000000000
+P _gear/0/_steerdeg_hispeed 8.000000000
+P _gear/0/_steerdeg_lospeed 20.000000000
 P _gear/0/_strut_comp 0.000000000
 P _gear/0/_strut_max_wgt_def 0.853018343
 P _gear/0/_strut_max_wgt_frc 3871.700927734
@@ -13219,7 +13219,7 @@ P _wing/2/_ailn1/7 1
 P _wing/2/_ailn1/8 1
 P _wing/2/_ailn1/9 1
 P _wing/2/_ailn1/count 10
-P _wing/2/_ailn1_hyd0123 0
+P _wing/2/_ailn1_hyd0123 3
 P _wing/2/_ailn2/0 0
 P _wing/2/_ailn2/1 0
 P _wing/2/_ailn2/2 0
@@ -15022,7 +15022,7 @@ P _wing/3/_ailn1/7 1
 P _wing/3/_ailn1/8 1
 P _wing/3/_ailn1/9 1
 P _wing/3/_ailn1/count 10
-P _wing/3/_ailn1_hyd0123 0
+P _wing/3/_ailn1_hyd0123 3
 P _wing/3/_ailn2/0 0
 P _wing/3/_ailn2/1 0
 P _wing/3/_ailn2/2 0
@@ -16825,7 +16825,7 @@ P _wing/4/_ailn1/7 1
 P _wing/4/_ailn1/8 0
 P _wing/4/_ailn1/9 0
 P _wing/4/_ailn1/count 10
-P _wing/4/_ailn1_hyd0123 0
+P _wing/4/_ailn1_hyd0123 3
 P _wing/4/_ailn2/0 0
 P _wing/4/_ailn2/1 0
 P _wing/4/_ailn2/2 0
@@ -18628,7 +18628,7 @@ P _wing/5/_ailn1/7 1
 P _wing/5/_ailn1/8 0
 P _wing/5/_ailn1/9 0
 P _wing/5/_ailn1/count 10
-P _wing/5/_ailn1_hyd0123 0
+P _wing/5/_ailn1_hyd0123 3
 P _wing/5/_ailn2/0 0
 P _wing/5/_ailn2/1 0
 P _wing/5/_ailn2/2 0
@@ -24172,7 +24172,7 @@ P acf/_additonal_gear_flatplate 2.500000000
 P acf/_ai_can_fly 1
 P acf/_ailn1_cratR 0.209999993
 P acf/_ailn1_cratT 0.250000000
-P acf/_ailn1_dn 20.000000000
+P acf/_ailn1_dn 19.000000000
 P acf/_ailn1_flaps 18.000000000
 P acf/_ailn1_max_sweep_rat 1.000000000
 P acf/_ailn1_pitch 0.000000000
@@ -24180,7 +24180,7 @@ P acf/_ailn1_rat1 1.000000000
 P acf/_ailn1_rat2 1.000000000
 P acf/_ailn1_sbrk 0.000000000
 P acf/_ailn1_sbrk_gnd_only 0
-P acf/_ailn1_up 20.000000000
+P acf/_ailn1_up 19.000000000
 P acf/_ailn1_v1 0.000000000
 P acf/_ailn1_v2 0.000000000
 P acf/_ailn2_cratR 0.000000000
@@ -24198,7 +24198,7 @@ P acf/_ailn2_v1 0.000000000
 P acf/_ailn2_v2 999.000000000
 P acf/_ailn_def_time 0.000000000
 P acf/_ailn_tab 0.000000000
-P acf/_ailn_trim_time 14.199999809
+P acf/_ailn_trim_time 10.000000000
 P acf/_airbus_FBW 0
 P acf/_alt_always_armed 1
 P acf/_alt_hard_locked_on_cws 0
@@ -25925,13 +25925,13 @@ P acf/_elec_regen_eta 0.000000000
 P acf/_elec_regen_rat 0.000000000
 P acf/_elev1_cratR 0.300000012
 P acf/_elev1_cratT 0.500000000
-P acf/_elev1_dn 45.000000000
+P acf/_elev1_dn 30.000000000
 P acf/_elev1_max_sweep_rat 1.000000000
 P acf/_elev1_rat1 1.000000000
 P acf/_elev1_rat2 1.000000000
 P acf/_elev1_sbrk 0.000000000
 P acf/_elev1_sbrk_gnd_only 0
-P acf/_elev1_up 45.000000000
+P acf/_elev1_up 30.000000000
 P acf/_elev1_v1 0.000000000
 P acf/_elev1_v2 0.000000000
 P acf/_elev2_cratR 0.000000000
@@ -25947,7 +25947,7 @@ P acf/_elev2_v1 0.000000000
 P acf/_elev2_v2 999.000000000
 P acf/_elev_def_time 0.000000000
 P acf/_elev_tab 0.150000006
-P acf/_elev_trim_time 10.000000000
+P acf/_elev_trim_time 7.000000000
 P acf/_elev_with_flap_rat 0.000000000
 P acf/_engine_friction_ratio 1.000000000
 P acf/_engine_pwr_rat_from_crit_alt 0.000000000
