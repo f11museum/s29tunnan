@@ -20548,10 +20548,10 @@ P _wing/8/_geo_xyz/0,1,2 27.179790497
 P _wing/8/_geo_xyz/0,10,0 0.000000000
 P _wing/8/_geo_xyz/0,10,1 2.857283354
 P _wing/8/_geo_xyz/0,10,2 28.608924866
-P _wing/8/_geo_xyz/0,11,0 0.000000000
+P _wing/8/_geo_xyz/0,11,0 -0.000000000
 P _wing/8/_geo_xyz/0,11,1 2.915747881
 P _wing/8/_geo_xyz/0,11,2 27.634515762
-P _wing/8/_geo_xyz/0,12,0 0.000000000
+P _wing/8/_geo_xyz/0,12,0 -0.000000000
 P _wing/8/_geo_xyz/0,12,1 3.032677174
 P _wing/8/_geo_xyz/0,12,2 27.179790497
 P _wing/8/_geo_xyz/0,13,0 0.000000000
@@ -26249,7 +26249,7 @@ P acf/_feathered_pitch 0.000000000
 P acf/_ff_rat_idle_JET 0.219999999
 P acf/_ff_rat_idle_PRP 0.000000000
 P acf/_ff_rat_idle_turbo 0.000000000
-P acf/_file_writer_version 121407
+P acf/_file_writer_version 122015
 P acf/_fixed_max/0 0.000000000
 P acf/_fixed_max/1 0.000000000
 P acf/_fixed_max/2 0.000000000
@@ -26573,6 +26573,7 @@ P acf/_hud_region_index 0
 P acf/_hud_tapes_track_vector 0
 P acf/_hyd_PTU_type 0
 P acf/_hyd_brakes 3
+P acf/_hyd_brakes_abs 0
 P acf/_hyd_ele_pump_0123/0 0
 P acf/_hyd_ele_pump_0123/1 0
 P acf/_hyd_ele_pump_0123/2 0
@@ -26607,6 +26608,8 @@ P acf/_hyd_max_p_ele 0.000000000
 P acf/_hyd_max_p_eng 3004.000000000
 P acf/_hyd_max_p_rot 0.000000000
 P acf/_hyd_nw_steer 0
+P acf/_hyd_park_brake_toe 1
+P acf/_hyd_park_brake_trap 0
 P acf/_hyd_prop_brake 0
 P acf/_hyd_prop_pump_0123/0 0
 P acf/_hyd_prop_pump_0123/1 0
@@ -26752,6 +26755,7 @@ P acf/_n2_power_curve 1.000000000
 P acf/_name F11 S29C Tunnan
 P acf/_new_plot_XP3D_cock/0 0
 P acf/_new_plot_outer_acf/0 0
+P acf/_no_default_chocks 0
 P acf/_no_default_contact_fx 0
 P acf/_no_default_engine_fx 0
 P acf/_no_default_gear_fx 0
@@ -26775,7 +26779,7 @@ P acf/_num_generators 2
 P acf/_num_inverters 2
 P acf/_num_prop 0
 P acf/_num_xmsn 1
-P acf/_o2_bottle_liter 0
+P acf/_o2_bottle_liter 0.000000000
 P acf/_oilT_is_C 1
 P acf/_ott_asi_kts_off_for_full_def 20.000000000
 P acf/_ott_asi_sec_into_future 10.000000000
