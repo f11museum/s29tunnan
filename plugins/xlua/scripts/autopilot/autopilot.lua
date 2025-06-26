@@ -453,7 +453,10 @@ function calculateRudder()
 	end
 	nos = interpolate(0, nosewheelangle, 20, 1, dr_groundspeed )
 	nos_multi = math.abs(constrain(nos, 5,nosewheelangle))
-	nos_auto = constrain(m_rudder*0.9, -10,10)
+	wanted_rate = nos_input * max_yaw_rate
+	delta = wanted_rate-current_rate
+	auto = delta*rate_to_deg * current_fade_out * machfade
+	nos_auto = constrain(auto*0.9, -10,10)
 	d_nos = nos_multi
 	if (dr_nose_speed>30) then
 		dr_tire_steer = constrain(nos_input * nos_multi + nos_auto, -nosewheelangle,nosewheelangle)
